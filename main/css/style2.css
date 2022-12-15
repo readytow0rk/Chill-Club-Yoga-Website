@@ -272,3 +272,20 @@ html {
   form {
     text-align: center;
   }
+  @media   (max-width:1200px){
+    .block {max-width: 970px;
+    }
+    }
+    @media   (max-width:992px){
+      .block {max-width: 750px;
+      }
+      }
+      @media   (max-width:767px){
+        .block {max-width: none;
+        }
+        }
+        .block {
+          padding: 15px;
+          max-width: 1300; 
+        }  
+     
