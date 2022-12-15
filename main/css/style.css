@@ -1,0 +1,157 @@
+
+body {
+  font-size: 1rem;
+    font-family:Courier, monospace;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+background: -moz-linear-gradient(top,  rgba(255, 255, 255, 0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+margin: 0;
+
+}
+img {
+    border-radius: 25px;
+    border-color: rgb(255, 0, 0);
+    background-size: cover;
+    max-width: 1000px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family:monospace;
+    border-radius: 10px;
+    text-align: center;
+     display: inline-block;
+     position: static;
+     text-decoration: none;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+  }
+  .up {
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+     display: inline-block;
+      position: static;
+      margin: 0;
+      font-family:monospace;
+  }
+  ul li a:hover {
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(top,  rgba(255, 255, 255, 0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255, 0, 0, 0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0, 255, 195, 0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    margin: 0;
+  }
+ .chi {
+  text-align: center;
+  mix-blend-mode: overlay;
+  margin: 0;
+  border-radius: 10px;
+  border: 5px rgba(255, 255, 255, 0.722) solid;
+ } 
+.bss {
+  width: 300px;
+  right: 10px;
+  border: 5px rgba(0, 0, 0, 0.722) solid;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0;
+  float: left;
+  font-family:monospace;
+}
+.vss  {
+  width: 300px;
+  right: 60px;
+  border: 5px rgba(0, 0, 0, 0.722) solid;
+  text-align: center;
+  border-radius: 10px;
+  justify-content: right;
+  margin: 0;
+  float: right;
+  font-family:monospace;
+}
+.girl {
+  position: relative;
+  width: 100%; 
+  
+}
+table {
+  position: absolute;
+  top:0;
+  justify-content: center;
+  right:20%;
+  top:15%
+}
+.part {
+  float: left;
+  text-align: center;
+  width: 400px;
+  font-size: 16px;
+}
+.partt {
+  float: right;
+  text-align: center;
+  width: 400px;
+  font-size: 16px;
+}
+
+.links {
+  position: relative;
+}
+.block {
+  padding: 15px;
+  max-width: 1300;
+}
+    .maps {
+      text-align: center;
+    }
+  
+.sign {
+  position: relative;
+}
+@media only screen and (max-width:1250px){
+.part {
+  margin-right: 20px;
+  font-size: 14px;
+
+}
+.partt {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+}
+@media only screen and (max-width:992px){
+
+}
+@media only screen and (max-width:768px){
+
+}
+@media only screen and (max-width:480px){
+
+}
+@media only screen and (max-width:320px){
+
+}
