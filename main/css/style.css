@@ -8,8 +8,13 @@ background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%
 background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 margin: 0;
-
 }
+header {
+    height: 100vh;
+    background: url('../css/eric-nopanen-8e0EHPUx3Mo-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;}
 img {
     border-radius: 25px;
     border-color: rgb(255, 0, 0);
@@ -66,7 +71,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   }
  .chi {
   text-align: center;
-  mix-blend-mode: overlay;
   margin: 0;
   border-radius: 10px;
   border: 5px rgba(255, 255, 255, 0.722) solid;
@@ -95,6 +99,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .girl {
   position: relative;
   width: 100%; 
+  text-align: center;
   
 }
 table {
@@ -119,6 +124,7 @@ table {
 
 .links {
   position: relative;
+  text-align: center;
 }
 .block {
   padding: 15px;
@@ -154,4 +160,13 @@ table {
 }
 @media only screen and (max-width:320px){
 
+}
+.txt1 {
+  text-align: center;
+}
+.floww {
+  text-align: center;
+}
+.end {
+  text-align: center;
 }
