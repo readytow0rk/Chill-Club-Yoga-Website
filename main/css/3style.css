@@ -33,6 +33,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   
   li {
     float: left;
+    text-align: center;
   }
 
   li a {
@@ -55,6 +56,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     background: linear-gradient(to bottom,  rgba(0, 255, 195, 0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
     margin: 0;
+    text-align: center;
   }  
      .team {
         display: inline-flex; 
@@ -95,7 +97,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
       }
       @media   (max-width:992px){
         .block {max-width: 750px;
+          
         }
+        .team {
+          display: inline-block;}
+          .team2 {
+            display: inline-block;}
         }
         @media   (max-width:767px){
           .block {max-width: none;
