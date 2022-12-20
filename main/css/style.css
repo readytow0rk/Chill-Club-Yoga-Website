@@ -11,7 +11,7 @@ text-align: center;
 }
 header {
     height: 100vh;
-    background: url('../css/eric-nopanen-8e0EHPUx3Mo-unsplash-copy-0.jpg');
+    background: url('../css/eric-nopanen-8e0EHPUx3Mo-unsplash-copy-0.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;}
@@ -159,6 +159,12 @@ table {
 .end {
   text-align: center;
 }
+@media (max-width:1600) {
+  .block {
+    max-width: 1190px ;
+  }
+}
+
 
 @media   (max-width:1200px){
 .block {max-width: 970px;
