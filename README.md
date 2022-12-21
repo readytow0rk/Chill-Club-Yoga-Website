@@ -38,6 +38,7 @@
 - I tested that this page works in different browsers : Chrome, Firefox and Safari
 - I confirmed that the navigation, header, about, services and contact pages all have readable texts and are easy to understand.
 - I have confirmed that the form works correctly validating all input elements and the submit button works.
+- 
 
 ### Bugs
 
