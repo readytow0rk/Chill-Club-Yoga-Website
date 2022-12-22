@@ -7,7 +7,7 @@ background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%
 background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 text-align: center;
- 
+ padding: 15px;
   }
   ul {
     list-style-type: none;
@@ -20,6 +20,8 @@ text-align: center;
      display: inline-block;
      position: static;
      text-decoration: none;
+     top: 0;
+     left: 35%;
      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -29,10 +31,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   }
   .up {
     text-align: center;
+    position: static;
   }
   
   li {
     float: left;
+    text-align: center;
   }
 
   li a {
@@ -55,6 +59,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     background: linear-gradient(to bottom,  rgba(0, 255, 195, 0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
     margin: 0;
+    text-align: center;
   }  
      .team {
         display: inline-flex; 
@@ -63,22 +68,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   .guy1 {
     border-radius: 15px; 
     border: 1px solid black; 
-    width: 680px;
+    
   }
      .guy2 {
       border-radius: 15px; 
       border: 1px solid black; 
-      width: 680px;
+      
      }
      .guy3 {
       border-radius: 15px; 
       border: 1px solid black; 
-      width: 680px; 
+      
      }
      .guy4 {
       border-radius: 15px; 
       border: 1px solid black;
-      width: 680px;
+      
+      
       
      }
      .team2 {
@@ -89,23 +95,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
       padding: 15px;
       max-width: 1300; 
     }
-     @media   (max-width:1200px){
-      .block {max-width: 970px;
-      }
-      }
-      @media   (max-width:992px){
-        .block {max-width: 750px;
+
+    
+
+        @media (max-width:1200px) {
+          .first, .second, .third, .forth {
+            width: 340px;
+            height: 340px;
+            border-radius: 15px;
+        }
+        .team , .team2 {
+          margin-left: -10%;
+        }
+        .up {margin-left: -10%;
         }
         }
-        @media   (max-width:767px){
-          .block {max-width: none;
+        @media (max-width:992px) {
+          .team , .team2 {
+            margin-left: 13%;
+            display: inline-block;
           }
-          .team {
-            display: inline-block;}
-            .team2 {
-              display: inline-block;}
+          .up {margin-left: 15%;
+          }
+          .first, .second, .third, .forth {
+            width: 340px;
+            height: 340px;
+            border-radius: 15px;
+        }
+        }
+        
+        @media (max-width:480px) {
+          .first, .second, .third, .forth {
+            width: 246px;
+            height: 248px;
+            border-radius: 15px;
             
-          
-          }
-      
+        }
+        .guy1, .guy2, .guy3, .guy4 {
+          margin-left: -13%;
+        }
+        .up {margin-left: -2%;
+        }
+        }
+        
+   
+  
      
