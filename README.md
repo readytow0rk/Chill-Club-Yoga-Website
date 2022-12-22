@@ -38,7 +38,10 @@
 - I tested that this page works in different browsers : Chrome, Firefox and Safari
 - I confirmed that the navigation, header, about, services and contact pages all have readable texts and are easy to understand.
 - I have confirmed that the form works correctly validating all input elements and the submit button works.
-- 
+- I have i couple of errors but everythung working ok.
+[Medi-Club responsive image](screen/scr3.png)
+
+
 
 ### Bugs
 
@@ -47,6 +50,9 @@
 - I discovered that this was due to the size of the images.
 - Reducing the size  fixed the problem.
 - Button "Submit" need extra attention for excelent view.
+- have i couple of errors but everythung working ok.
+[Medi-Club responsive image](screen/scr4.png)
+[Medi-Club responsive image](screen/scr5.png)
 
 
 
@@ -70,7 +76,7 @@
 
 
 ### Unfixed Bugs
-- Image in First page (in header) not adobt for different resolution overall everything  adobt bad working for any resolution except desktop resolution.
+- - - 
 
 # Deployment
 - The site was deployed to Github pages. The steps to deploy are as follows: 
@@ -78,7 +84,7 @@
 
 
 
-   [Medi-Club](https://github.com/readytow0rk/MeditationSite)
+   [Medi-Club](https://readytow0rk.github.io/MeditationSite/)
 
 
 # Content
