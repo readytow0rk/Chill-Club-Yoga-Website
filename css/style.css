@@ -21,6 +21,7 @@
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
+   object-fit: cover;
  }
 
  img {
@@ -76,15 +77,9 @@
  }
 
  ul li a:hover {
-   background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-   /* FF3.6-15 */
-   background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-   /* Chrome10-25,Safari5.1-6 */
-   background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
-   /* IE6-9 */
-
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
  }
 
  .bss {
@@ -231,3 +226,391 @@
 .secondhalf {
   display: inline-table;
 }
+@media   (max-width:1200px){
+  .bss {
+    width: 470px;
+    height: 700px;
+    font-size: 32.3px;
+    
+  }
+  .vss {
+    width: 470px;
+    height: 700px;
+    font-size: 36px;
+  }
+  .part {
+    width: 500px;
+    font-size: 25px;
+  }
+  .partt {
+    width: 500px;
+    font-size: 23px;
+  }
+}
+
+@media   (max-width:1000px){
+  .bss {
+    width: 400px;
+    height: 950px;
+    font-size: 36.17px;
+    
+  }
+  .vss {
+    width: 400px;
+    height: 950px;
+    font-size: 37px;
+  }
+  .part {
+    width: 500px;
+    font-size: 25px;
+    
+  }
+  .partt {
+    width: 500px;
+    font-size: 23px;
+    
+  }
+  .half, .secondhalf {
+    display: inline-block;
+  } 
+  /* .gg{
+    width: 80%;
+  } */
+}
+
+@media   (max-width:940px){
+  .bss {
+    width: 400px;
+    height: 950px;
+    font-size: 36.17px;
+    
+  }
+  .vss {
+    width: 400px;
+    height: 950px;
+    font-size: 37px;
+  }
+  .part {
+    width: 600px;
+    font-size: 30px;
+    margin-left: 15%;
+    
+  }
+  .partt {
+    width: 600px;
+    font-size: 28px;
+    margin-right: 15%;
+    
+  }
+  .half {
+    display: block
+  } 
+  /* .gg{
+    width: 80%;
+  } */
+}
+@media   (max-width:851px){
+  .bss {
+    width: 300px;
+    height: 950px;
+    font-size: 30.7px;
+}
+.vss {
+  width: 300px;
+  height: 950px;
+  font-size: 31px;
+}
+  .part {
+    width: 600px;
+    font-size: 30px;
+    margin-left: 15%;
+    
+  }
+  .partt {
+    width: 600px;
+    font-size: 28px;
+    margin-right: 15%;
+    
+  }
+  .half {
+    display: block
+  } 
+  /* .gg{
+    width: 80%;
+  } */
+}
+
+@media   (max-width:760px){
+  .bss {
+    width: 300px;
+    height: 950px;
+    font-size: 30.7px;
+}
+.vss {
+  width: 300px;
+  height: 950px;
+  font-size: 31px;
+}
+  .part {
+    width: 600px;
+    font-size: 30px;
+    margin-left: 8%;
+    
+  }
+  .partt {
+    width: 600px;
+    font-size: 28px;
+    margin-right: 8%;
+    
+  }
+  .half {
+    display: block
+  } 
+  /* .gg{
+    width: 80%;
+  } */
+}
+@media   (max-width:700px){
+  .bss {
+    width: 300px;
+    height: 950px;
+    font-size: 30.7px;
+}
+.vss {
+  width: 300px;
+  height: 950px;
+  font-size: 31px;
+}
+.part {
+  width: 500px;
+  font-size: 35px;
+  margin-left: 12%;
+}
+.partt {
+  width: 500px;
+  font-size: 35px;
+  margin-right: 10%;
+}
+  .half {
+    display: block
+  } 
+  /* .gg{
+    width: 80%;
+  } */
+}
+@media   (max-width:700px){
+  .bss {
+      width: 600px;
+      height: 450px;
+      font-size: 28px;
+      float: none;
+      margin-left: 4%;
+}
+.vss {
+  width: 600px;
+  height: 450px;
+  font-size: 28px;
+  float: none;
+  margin-left: 4%;
+}
+.part {
+  width: 500px;
+  font-size: 35px;
+  margin-left: 12%;
+  float: none;
+}
+.partt {
+  width: 500px;
+  font-size: 35px;
+  margin-right: 10%;
+  float: none;
+}
+  .half {
+    display: block
+  } 
+  table {
+    color: rgb(255, 0, 0);
+  }
+}
+@media   (max-width:661px){
+  .bss {
+      width: 550px;
+      height: 450px;
+      font-size: 28px;
+      float: none;
+      margin-left: 4%;
+}
+.vss {
+  width: 550px;
+  height: 450px;
+  font-size: 28px;
+  float: none;
+  margin-left: 4%;
+}
+.part {
+  width: 500px;
+  font-size: 35px;
+  margin-left: 12%;
+  float: none;
+}
+.partt {
+  width: 500px;
+  font-size: 35px;
+  margin-right: 10%;
+  float: none;
+}
+  .half {
+    display: block
+  } 
+  table {
+    color: rgb(255, 0, 0);
+  }
+}
+@media   (max-width:616px){
+  .bss {
+      width: 500px;
+      height: 450px;
+      font-size: 28px;
+      float: none;
+      margin-left: 4%;
+}
+.vss {
+  width: 500px;
+  height: 450px;
+  font-size: 28px;
+  float: none;
+  margin-left: 4%;
+}
+.part {
+  width: 420px;
+  font-size: 30px;
+  margin-left: 12%;
+  float: none;
+}
+.partt {
+  width: 420px;
+  font-size: 30px;
+  margin-left: 12%;
+  float: none;
+}
+  .half {
+    display: block
+  } 
+  table {
+    color: rgb(255, 0, 0);
+  }
+}
+
+@media   (max-width:550px){
+  .bss {
+    width: 370px;
+    height: 450px;
+    font-size: 24px;
+    float: none;
+    margin-left: 12%;
+}
+.vss {
+  width: 370px;
+  height: 450px;
+  font-size: 24px;
+  float: none;
+  margin-left: 12%;
+}
+.part {
+  width: 360px;
+  font-size: 28px;
+  margin-left: 12%;
+  float: none;
+}
+.partt {
+  width: 360px;
+    font-size: 27px;
+    margin-right: 10%;
+    float: none;
+}
+  .half {
+    display: block
+  } 
+  table {
+    color: rgb(255, 0, 0);
+  }
+}
+@media   (max-width:460px){
+  .bss {
+    width: 370px;
+    height: 450px;
+    font-size: 24px;
+    float: none;
+    margin-left: 3%;
+}
+.vss {
+  width: 370px;
+  height: 450px;
+  font-size: 24px;
+  float: none;
+  margin-left: 3%;
+}
+.part {
+  width: 360px;
+  font-size: 28px;
+  margin-left: 5%;
+  float: none;
+}
+.partt {
+  width: 360px;
+    font-size: 27px;
+    margin-left: 0%;
+    
+}
+  .half {
+    display: block
+  } 
+  table {
+    color: rgb(255, 0, 0);
+  }
+}
+
+@media   (max-width:430px){
+  .bss {
+    width: 300px;
+    height: 450px;
+    font-size: 20.6px;
+    float: none;
+    margin-left: 10%;
+}
+.vss {
+  width: 300px;
+  height: 450px;
+  font-size: 23.2px;
+  float: none;
+  margin-left: 10%;
+}
+.part {
+  width: 300px;
+  font-size: 26px;
+  margin-left: 10%;
+  float: none;
+}
+.partt {
+  width: 300px;
+  font-size: 27px;
+  margin-left: 10%;
+    
+}
+  .half {
+    display: block
+  } 
+  table {
+    color: rgb(255, 0, 0);
+  }
+  .mm {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
