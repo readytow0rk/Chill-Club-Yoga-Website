@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body {
+    font-size: 1rem;
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  margin: 0;
+text-align: center;
+  padding: 15px;
+  font-family: 'Abril Fatface', cursive;
+  }
+  img {
+      border-radius: 25px;
+      border-color: rgb(255, 0, 0);
+      background-size: cover;
+      max-width: 1000px;
+      
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+     display: inline-block;
+     position: static;
+     text-decoration: none;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+  background: -moz-linear-gradient(top,  rgb(0, 0, 0) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgb(0, 0, 0) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+  
+  }
+  .up {
+    text-align: center; 
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+     display: inline-block;
+      position: static;
+      margin: 0;
+  }  
+    
+    ul li a:hover {
+   background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+  
+    }
+    
+   .chi {
+    text-align: center;
+    mix-blend-mode: overlay;
+    margin: 0;
+    border-radius: 10px;
+    border: 5px rgba(255, 255, 255, 0.722) solid;
+   } 
+  .bss {
+    width: 300px;
+    right: 10px;
+    border: 5px rgba(0, 0, 0, 0.722) solid;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0;
+    float: left;
+
+  }
+  .vss  {
+    width: 300px;
+    right: 60px;
+    border: 5px rgba(0, 0, 0, 0.722) solid;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: right;
+    margin: 0;
+    float: right;
+
+  }
+  .girl {
+    position: relative;
+  }
+  table {
+    position: absolute;
+    top:0;
+    justify-content: center;
+    right:20%;
+    top:15%
+  }
+.phone {
+    text-align: center;
+    mix-blend-mode: overlay;
+    position: relative;
+}
+html {
+    height: 100%;
+  }
+  
+  
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .login-box a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    
+  }
+  
+.submit {
+ font-size: 30px;
+ border-radius: 10px;
+ cursor: pointer;
+ 
+}
+
+  .block {
+    padding: 15px;
+    max-width: 1300; 
+    bottom: 20%;
+    margin: 2%;
+  }
+  
+  
+  form {
+    text-align: center;
+  }
