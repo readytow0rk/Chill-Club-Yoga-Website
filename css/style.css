@@ -17,7 +17,7 @@
 
  header {
    height: 100vh;
-   background: url('../img/eric.png');
+   background: url('../img/eric.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
@@ -135,30 +135,6 @@
    height: 100%;
  }
 
- .part {
-   float: left;
-   width: 400px;
-   font-size: 16px;
-   border: 5px rgba(0, 0, 0, 0.722) solid;
-   text-align: center;
-   border-radius: 10px;
-   padding: 15px;
-   color: black;
-   margin-bottom: -30%;
- }
-
- .partt {
-   float: right;
-   width: 400px;
-   font-size: 16px;
-   border: 5px rgba(0, 0, 0, 0.722) solid;
-   text-align: center;
-   border-radius: 10px;
-   padding: 15px;
-   color: black;
-
- }
-
  table {
    color: rgb(0, 0, 0);
  }
@@ -226,3 +202,32 @@
    -ms-transform: scale(1.2);
    transform: scale(1.2);
  }
+  .part {
+   float: left;
+   width: 400px;
+   font-size: 22.3px;
+   border: 5px rgba(0, 0, 0, 0.722) solid;
+   text-align: center;
+   border-radius: 25px;
+   padding: 15px;
+   color: black;
+   
+ }
+
+ .partt {
+  float: right;
+  width: 400px;
+  font-size: 20.36px;
+  border: 5px rgba(0, 0, 0, 0.722) solid;
+  text-align: center;
+  border-radius: 25px;
+  padding: 15px;
+  color: black;
+ }
+.half {
+  display: inline-flex;
+  text-align: center;
+}
+.secondhalf {
+  display: inline-table;
+}
