@@ -227,4 +227,71 @@ form {
 
 .phh {
   object-fit: cover;
+  width: 100%;
 }
+
+@media(max-width:900px){
+ .phh {
+  width: 90%
+ }
+ .ul {
+  width: 600px;
+  height: 200px;
+}
+}
+
+ @media(max-width:680px){
+  .up {
+    width: 400px;
+    height: 180px;
+    margin-left: 20%;
+  }
+   }
+
+   @media(max-width:540px){
+    .up {
+      width: 400px;
+      height: 180px;
+      margin-left: 9%;
+    }
+     }
+
+     @media(max-width:470px){
+      .up {
+        width: 350px;
+        height: 180px;
+        margin-left: 2%;
+      }
+       }
+
+       
+     @media(max-width:470px){
+      .up {
+        width: 350px;
+        height: 180px;
+        margin-left: 2%;
+      }
+       }
+
+       @media(max-width:450px){
+        .up {
+          width: 300px;
+          margin-left: 2%;
+        }
+        .login-box{
+width: 270px;
+        }
+         }
+   
+         @media(max-width:330px){
+          .up {
+            width: 250px;
+            margin-left: 6%;
+          }
+          .login-box{
+  width: 270px;
+          }
+           }
+     
+ 
+ 

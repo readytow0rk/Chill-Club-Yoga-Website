@@ -135,3 +135,72 @@ ul li a:hover {
     display: inline-block
   }
 }
+
+@media   (max-width:612px){
+.up {
+  width: 400px;
+  margin-left: 14%;
+}
+.first,
+.second,
+.third,
+.forth {
+  width: 450px;
+}
+.guy1, .guy2, .guy3, .guy4 {
+  width: 450px;
+}
+}
+@media   (max-width:530px){
+  .up {
+    width: 400px;
+    margin-left: 6%;
+  }
+}
+@media   (max-width:472px){
+  .up {
+    width: 350px;
+    margin-left: 3%;
+  }
+  .first,
+  .second,
+  .third,
+  .forth {
+    width: 400px;
+  }
+  .guy1, .guy2, .guy3, .guy4 {
+    width: 400px;
+  }
+  }
+
+  @media   (max-width:412px){
+    .up {
+      width: 300px;
+      margin-left: 3%;
+    }
+    .first,
+    .second,
+    .third,
+    .forth {
+      width: 350px;
+    }
+    .guy1, .guy2, .guy3, .guy4 {
+      width: 350px;
+    }
+    }
+
+    @media   (max-width:362px){
+      .up {
+        width: 180px;
+        margin-left: 15%;
+      }
+      .first,
+      .second,
+      .third,
+      .forth {
+        width: 300px;
+      }
+      .guy1, .guy2, .guy3, .guy4 {
+        width: 300px;
+      }
+      }
