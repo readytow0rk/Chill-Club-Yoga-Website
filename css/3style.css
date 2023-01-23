@@ -204,3 +204,12 @@ ul li a:hover {
         width: 300px;
       }
       }
+
+      @media (min-width: 310px){
+        .first,
+        .second,
+        .third,
+        .forth {
+          height: 50%;
+        }  
+      }
