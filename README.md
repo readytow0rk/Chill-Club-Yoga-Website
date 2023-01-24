@@ -4,7 +4,7 @@
 
 
 
-![Medi-Club responsive image](screen/screen1.png)
+![Medi-Club responsive image](screen/scr1.png)
 
 
 ## Features
