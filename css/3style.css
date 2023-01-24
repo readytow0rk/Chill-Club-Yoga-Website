@@ -205,7 +205,7 @@ ul li a:hover {
       }
       }
 
-      @media (min-width: 310px){
+      @media (max-width: 420px){
         .first,
         .second,
         .third,
