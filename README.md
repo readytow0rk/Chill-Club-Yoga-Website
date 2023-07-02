@@ -84,7 +84,7 @@
 
 
 
-   [Medi-Club](https://readytow0rk.github.io/MeditationSite/)
+   [Medi-Club](https://readytow0rk.github.io/Medi-club/)
 
 
 # Content
